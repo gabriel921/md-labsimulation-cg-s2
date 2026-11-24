@@ -298,6 +298,9 @@ run:
 ./run_setup_analysis.sh
 ```
 
+NOTE: If you used the slurm method, before running the analysis script, 
+issue gunzip 001.tpr.gz inside every replica's folder.
+
 See the comments at the top of that script for the individual analyses it
 runs and the scripts it calls.
 
