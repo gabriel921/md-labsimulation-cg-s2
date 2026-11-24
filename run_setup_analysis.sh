@@ -19,6 +19,7 @@
 #   - make_ndx/trjconv need sirah.ff's residuetypes.dat/specbond.dat in their
 #     working directory to recognise SIRAH residues as "Protein" — every
 #     analysis folder gets the same links that run_setup.sh makes in 0_prep/.
+# if using SLURM method on the run, issue gunzip 001.tpr.gz inside rep folders
 # =============================================================================
 
 set -e
